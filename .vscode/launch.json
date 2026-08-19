@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Lanzar Chrome con perfil personal",
+      "url": "http://localhost:3000",
+      "runtimeArgs": [
+        "--user-data-dir=${userHome}/Library/Application Support/Google/Chrome",
+        "--profile-directory=Personal 1"
+      ]
+    }
+  ]
+}
